@@ -11,18 +11,33 @@ const scene = new THREE.Scene()
  * Test cube
  */
  const geometry = new THREE.BoxGeometry();
- const material = new THREE.MeshStandardMaterial( { color: 0x0000ff, roughness: 0.7} );
+ const material = new THREE.MeshPhongMaterial( { color: 0x00ffff} );
+ material.needsUpdate = true;
  const cube = new THREE.Mesh( geometry, material );
- cube.castShadow = true;
+ //cube.castShadow = true;
  cube.receiveShadow = true;
- cube.position.set(1, 0.165, 0);
-
- const light = new THREE.AmbientLight( 0x404040) ;
- // light.position.set( 0, 0, 0 );
-
-
+ cube.position.set(1, 0.155, 0);
  scene.add( cube );
- scene.add(light);
+
+ var ambientLight = new THREE.AmbientLight(0xffffff, 0.1); // soft white light
+ scene.add(ambientLight);
+
+  // Create directional light and add to scene.
+  var directionalLight = new THREE.DirectionalLight(0xffffff, 0.1);
+  directionalLight.position.set(0, 1, 0).normalize();
+  scene.add(directionalLight);
+  directionalLight.castShadow = true;            // default false
+  // Will not light anything closer than 0.1 units or further than 25 units
+  directionalLight.shadow.camera.near = 0.0001;
+  directionalLight.shadow.camera.far = 100;
+
+  // const directionaLightHelper = new THREE.DirectionalLightHelper( directionalLight, 0.01 );
+  // scene.add( directionaLightHelper );
+
+
+
+
+
 
 
 const title = document.querySelector('.v4_24');
