@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(243,243,244,1);
+}
+
+.v4_24 {
+  position: fixed;
+  width: 307px;
+  height: 83px;
+  left: 141px;
+  top: 65px;
+
+  /* Title */
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 83px;
+  text-align: center;
+
+  color: #000000;
+
+
+
+}
+.v4_28 {
+  position: fixed;
+  width: 276px;
+  height: 14px;
+  left: 148px;
+  top: 148px;
+
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #000000;
+}
+.v5_29 {
+  position: fixed;
+  width: 98px;
+  height: 23px;
+  /* left: 789px; */
+  left: 70vw;
+  top: 113px;
+
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.v5_34 {
+  position: fixed;
+  width: 98px;
+  height: 23px;
+  /* left: 937px; */
+  left: 80vw;
+  top: 113px;
+
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+
+}
+.v5_35 {
+  position: fixed;
+  width: 137px;
+  height: 11px;
+  left: 90vw;
+  /* left: 1065px; */
+  top: 113px;
+
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.v5_36 {
+  position: fixed;
+  width: 154px;
+  height: 42px;
+  left: 148px;
+  top: 347px;
+
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+.v5_37 {
+  position: fixed;
+  width: 887px;
+  height: 249px;
+  left: 141px;
+  top: 436px;
+
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #000000;
+}
+.v5_38 {
+  position: fixed;
+  width: 887px;
+  height: 260px;
+  left: 141px;
+  top: 550px;
+
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+
+.section
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+    will-change: transform;
+}
+
+section:nth-child(odd)
+{
+    justify-content: flex-end;
+}
