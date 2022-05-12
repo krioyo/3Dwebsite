@@ -61,8 +61,26 @@
   font-size: 18px;
   line-height: 23px;
 
-  color: #000000;
+  color: rgb(0, 0, 0);
+  transition: 3s;
 }
+
+a:hover {
+   color: rgb(190, 71, 71) ; 
+   text-shadow: 0 0 10px rgb(44, 24, 24),
+                0 0 15px rgb(78, 29, 29),
+                0 0 20px rgb(105, 0, 0),
+                0 0 30px rgb(99, 35, 35),
+                0 0 40px rgb(177, 73, 73),
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
 .v5_34 {
   position: fixed;
   width: 98px;
