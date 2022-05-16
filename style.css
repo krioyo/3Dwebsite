@@ -61,8 +61,30 @@
   font-size: 18px;
   line-height: 23px;
 
-  color: #000000;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  transition-timing-function: ease-out;
 }
+
+.v5_29:hover {
+   color: rgb(255, 7, 7) ; 
+   /* text-shadow: 0 0 1px rgb(46, 31, 31),
+                0 0 2px rgb(73, 35, 35),
+                0 0 3px rgb(134, 50, 50),
+                0 0 4px rgb(196, 55, 55),
+                0 0 5px rgb(212, 76, 76); */
+  font-size: 20px;
+  font-weight: 1000 ;
+  
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
 .v5_34 {
   position: fixed;
   width: 98px;
@@ -78,8 +100,28 @@
   line-height: 23px;
 
   color: #000000;
+  transition: 0.5s;
+  transition-timing-function: ease-out;
+
 
 }
+
+.v5_34:hover {
+  color: rgb(103, 253, 103) ; 
+  /* text-shadow: 0 0 1px rgb(41, 49, 41),
+               0 0 2px rgb(51, 82, 45),
+               0 0 3px rgb(45, 100, 52),
+               0 0 4px rgb(67, 134, 61),
+               0 0 5px rgb(73, 158, 62); */
+ font-size: 20px;
+ font-weight: 1000 ;
+ 
+
+}
+
+
+
+
 .v5_35 {
   position: fixed;
   width: 137px;
@@ -95,7 +137,23 @@
   line-height: 23px;
 
   color: #000000;
+  transition: 0.5s;
+  transition-timing-function: ease-out;
 }
+
+.v5_35:hover {
+  color: rgb(56, 192, 255) ; 
+  /* text-shadow: 0 0 1px rgb(45, 55, 68),
+               0 0 2px rgb(63, 82, 165),
+               0 0 3px rgb(35, 71, 119),
+               0 0 4px rgb(57, 118, 175),
+               0 0 5px rgb(18, 144, 247); */
+ font-size: 20px;
+ font-weight: 1000 ;
+ 
+
+}
+
 .v5_36 {
   position: fixed;
   width: 154px;
